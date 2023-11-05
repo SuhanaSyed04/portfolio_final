@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+<div class="navbar">
+  <a href="/home.html">Home</a>
+  <a href="/about.html">About Me</a>
+  <a href="/certifications.html">Certifications</a>
+  <a href="/Projects.html">Projects</a>
+  <a href="Publications.html">Publications</a>
+  <a href="Contact.html">Contact</a>
+</div>
+
+<div class="contact">
+  <div class="map">
+    <iframe src="https://www.google.com/maps/d/embed?mid=1Mx3RBGtLViyboIrFayU59SqMsB-L6Yc&ehbc=2E312F" width = "100%" height="420" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  </div>
+
+  <div class="form">
+    <h1>Contact Me</h1>
+    <form action="https://formsubmit.co/suhana.official47@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Name">
+      <input type="email" name="email" placeholder="Email">
+      <input type="text" name="subject" placeholder="Subject">
+      <input type="hidden" name="_captcha" value="false">
+      <textarea name="msg" placeholder="Message"></textarea>
+      <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+</html>
+
+
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+  }
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #217e8a;
+    height: 60px;
+  }
+  .navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 18px;
+  }
+  .navbar a:hover {
+    background-color: #154e55;
+    border-radius: 10px;
+  }
+
+  .map {
+    width: 100%;
+  }
+  .input-box {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 6px 0px;
+  }
+  input,
+  textarea {
+    width: 100%;
+    padding: 6px;
+    outline: none;
+    border: none;
+    margin: 6px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  input:focus,
+  textarea:focus {
+    outline: none;
+  }
+  button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    width: 150px;
+    background: #2c0d69;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.8rem 0;
+    font-size: 1.2rem;
+    color: white;
+    margin: 0 auto;
+  }
+  button:hover {
+    transform: scale(0.99);
+  }
+</style>
+</body>
+</html>
